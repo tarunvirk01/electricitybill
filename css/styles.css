@@ -1,0 +1,284 @@
+/*html and body styles*/
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*div.container*/
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/*header styles*/
+header {
+  height: 200px;
+  background-color: #f26649;
+  color: white;
+  width: 100%;
+}
+
+/*heading styles*/
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #f26649;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 800;
+  color: #f26649;
+}
+
+/*paragraph styles*/
+
+p {
+  font-size: 16px;
+  line-height: 1.5em;
+  font-kerning: auto;
+  color: #807f84;
+}
+
+/*lightbulb styles*/
+.iconic-lightbulb {
+  cursor: pointer;
+}
+
+.iconic-lightbulb * {
+  transition: 0.2s;
+}
+
+.iconic-lightbulb .icon-container {
+  fill: #fff;
+  stroke-width: 10;
+  stroke: #fff;
+  transition: 1.5s;
+}
+
+.iconic-lightbulb .iconic-lightbulb-light * {
+  stroke-width: 16;
+  stroke: #ddd;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.iconic-lightbulb .iconic-lightbulb-base {
+  fill: #ddd;
+}
+
+.iconic-lightbulb .iconic-lightbulb-screws * {
+  fill: none;
+  stroke-width: 20;
+  stroke: #ddd;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* STEP 3: Change the color of the lightbulb to yellow-orange, and double the stroke-width on :hover */
+.iconic-lightbulb:hover .iconic-lightbulb-light * {
+  stroke: #fc0;
+  stroke-width: 32;
+}
+
+/*main styles*/
+main {
+  margin-top: 70px;
+}
+/*article styles*/
+
+/*section styles*/
+
+/*box1 electricity*/
+.box1 {
+  background-color: #eef7e2;
+  padding:2px 15px 10px 15px;
+  border-radius: 15px;
+}
+
+.box2 {
+  background-color: #ffeecb;
+  margin-top: 20px;
+  padding:2px 15px 10px 15px;
+  border-radius: 15px;
+}
+
+.box3 {
+  background-color: #d9f4fa;
+  margin-top: 20px;
+  padding:2px 15px 10px 15px;
+  border-radius: 15px;
+}
+
+.box4 {
+  margin-top: 20px;
+  padding:2px 15px 10px 15px;
+  border: 2px solid #d9f4fa;
+  border-radius: 15px;
+}
+
+/*aside styles*/
+
+#bill {
+  border: 1px solid black;
+  margin: 0 40px;
+  -webkit-box-shadow: -2px 2px 10px 1px rgba(0,0,0,0.5);
+  -moz-box-shadow: -2px 2px 10px 1px rgba(0,0,0,0.5);
+  box-shadow: -2px 2px 10px 1px rgba(0,0,0,0.5);
+}
+
+/*bill heading*/
+#bill>h2 {
+  background-color: #f26649;
+  color: white;
+  padding: 15px;
+  height: 80px;
+  margin-top: 0;
+  font-size: 40px;
+}
+
+/*bill para*/
+#bill>div>p {
+  padding-left: 20px
+}
+
+#bill>div>hr {
+  height: 1px;
+  background-color: black;
+}
+
+/*bill h3*/
+#bill>div h3 {
+  color: #58595b;
+  font-size: 28px;
+  font-weight:900;
+  padding-left: 20px
+}
+
+.billContent>table {
+  width: 100%;
+}
+
+/*this targets all the first td's of tables*/
+td:nth-child(1) {
+  color: #f26649;
+  font-size: 18px;
+  font-weight: 800;
+  padding-left: 20px;
+  width: 85%;
+}
+
+
+.yellowTd {
+  background-color: #ffeecb;
+  border-radius: 5px;
+}
+
+.blueTd {
+  background-color: #d9f4fa;
+  border-radius: 5px;
+}
+
+#bill .greyTd {
+  color: #807f84;
+}
+
+.greyBackTd {
+  background-color: #e6e5e6;
+  font-size: 28px;
+}
+/*bill small */
+#bill small {
+  padding: 20px;
+}
+
+.small {
+  border: 1px solid black;
+  margin: 20px;
+}
+
+/*billCalculator styles*/
+.billCalculator {
+  padding-top: 70px;
+}
+
+.bluetext {
+  color: #0194d3;
+}
+
+.billCalculator h3 {
+  font-size: 36px;
+}
+
+.billCalculator p {
+  font-size: 18px;
+}
+
+/*usage article*/
+
+.usage {
+  margin-top: 70px;
+}
+
+.usage h2 {
+  color: #525659;
+  font-size: 36px;
+}
+
+.usage b {
+  color: #525659;
+}
+
+/*periods styles*/
+.periods {
+  margin: 25px;
+  padding: 50px;
+  border-radius: 15px;
+  background-color: #fef0ed;
+}
+.periods>div:nth-of-type(1) {
+  background-color: #fff;
+  padding-left: 20px;
+  border-radius: 15px;
+}
+
+.greentext {
+  color: #8ec63f;
+}
+
+.orangetext {
+  color: #fdbb30;
+}
+
+/*footer styles*/
+footer {
+  background-color: #f26649;
+  color: white;
+  width: 100%;
+  margin-top: 50px;
+}
+
+footer p {
+  color: #fff;
+}

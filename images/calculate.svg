@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="500px" viewBox="155 159 222 206" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="pattern-0" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse" viewBox="0 0 100 100">
+      <path d="M 0 0 L 50 0 L 50 100 L 0 100 Z" style="fill: black;"/>
+    </pattern>
+  </defs>
+  <rect x="-253.128" width="81.329" height="74.179" transform="matrix(-1, 0, 0, 1, 0, 0)" y="178.948" style="fill: rgb(1, 148, 211); stroke: rgb(1, 148, 211); stroke-width: 10; stroke-linejoin: round;" rx="9.831" ry="9.831"/>
+  <rect x="282.621" y="178.056" width="81.329" height="74.179" style="stroke-linejoin: round; stroke: rgb(1, 148, 211); stroke-width: 10; fill: rgb(1, 148, 211);" rx="11.618" ry="11.618"/>
+  <rect y="276.365" width="81.329" height="74.179" style="stroke: rgb(1, 148, 211); stroke-width: 10; stroke-linejoin: round; fill: rgb(1, 148, 211);" x="171.808" rx="14.3" ry="14.3"/>
+  <rect x="283.515" y="276.365" width="81.329" height="74.179" style="stroke: rgb(242, 102, 73); stroke-width: 10; stroke-linejoin: round; fill: rgb(242, 102, 73);" rx="16.981" ry="16.981"/>
+  <path d="M 299.156 292.452 L 347.416 292.452 C 352.106 292.452 355.907 296.253 355.907 300.943 C 355.907 305.632 352.105 309.433 347.416 309.433 L 299.156 309.433 C 294.467 309.433 290.666 305.632 290.665 300.943 C 290.665 296.253 294.467 292.452 299.156 292.452 Z M 300.389 317.923 L 348.649 317.923 C 353.339 317.923 357.14 321.725 357.14 326.414 C 357.14 331.104 353.338 334.904 348.649 334.904 L 300.389 334.904 C 295.7 334.904 291.899 331.104 291.898 326.414 C 291.898 321.725 295.7 317.923 300.389 317.923 Z" style="fill: rgb(255, 255, 255); stroke-linecap: round; stroke: rgb(255, 255, 255); stroke-width: 5; stroke-linejoin: round;"/>
+  <rect x="291.112" y="205.314" width="67.03" height="19.662" style="stroke: rgb(255, 255, 255); stroke-width: 5; stroke-linecap: round; fill: rgb(255, 255, 255);" rx="9.831" ry="9.831"/>
+  <rect x="181.629" y="203.526" width="67.03" height="19.662" style="stroke: rgb(255, 255, 255); stroke-width: 5; stroke-linecap: round; fill: rgb(255, 255, 255);" rx="9.831" ry="9.831" transform="matrix(-0.015098, -0.999886, 0.999886, -0.015097, 4.05963, 432.698473)"/>
+  <rect x="181.629" y="203.526" width="67.03" height="19.662" style="stroke: rgb(255, 255, 255); stroke-width: 5; stroke-linecap: round; fill: rgb(255, 255, 255);" rx="9.831" ry="9.831" transform="matrix(-0.99981, 0.019488, -0.019488, -0.999811, 433.008063, 424.86931)"/>
+  <rect x="181.629" y="203.526" width="67.03" height="19.662" style="stroke: rgb(255, 255, 255); stroke-width: 5; stroke-linecap: round; fill: rgb(255, 255, 255);" rx="9.831" ry="9.831" transform="matrix(-0.704622, -0.709582, 0.709581, -0.704622, 213.197294, 616.387513)"/>
+  <rect x="181.629" y="203.526" width="67.03" height="19.662" style="stroke: rgb(255, 255, 255); stroke-width: 5; stroke-linecap: round; fill: rgb(255, 255, 255);" rx="9.831" ry="9.831" transform="matrix(0.709592, -0.704613, 0.704613, 0.709592, -89.706994, 313.606673)"/>
+</svg>
